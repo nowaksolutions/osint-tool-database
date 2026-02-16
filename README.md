@@ -2,7 +2,7 @@
 
 A structured, continuously evolving knowledge base of Open-Source Intelligence (OSINT) tools used in cybersecurity investigations, threat intelligence, and digital reconnaissance.
 
-This repository is hosted on :contentReference[oaicite:0]{index=0} and is designed as both a personal learning system and a professional portfolio artifact.
+This repository is designed as both a personal learning system and a professional portfolio artifact.
 
 Each tool lives in its own file and is organized by investigative category to mirror real SOC and threat-intelligence workflows.
 
