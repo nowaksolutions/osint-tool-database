@@ -141,7 +141,7 @@ This repository is for:
 • Threat intelligence practitioners  
 • Anyone who wants structured investigative thinking  
 
-And for me — as a daily training ground.
+And for me, as a daily training ground.
 
 ---
 
