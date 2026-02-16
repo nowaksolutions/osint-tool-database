@@ -1,0 +1,59 @@
+# DeHashed
+
+## Category
+Breach Data / Credential Intelligence
+
+## Purpose
+DeHashed provides searchable breach datasets including emails, usernames, passwords, IPs, and names to support identity investigations and credential exposure analysis.
+
+## Access / Where to Get It
+Website: https://www.dehashed.com  
+API: https://www.dehashed.com/docs  
+
+## Input
+Email address  
+Username  
+Password hash  
+IP address  
+Name  
+
+## Output
+Breached credentials  
+Associated usernames  
+Passwords or hashes  
+IP addresses  
+Names and phone numbers  
+Linked accounts  
+
+## Strengths
+Powerful search across multiple breach types  
+Supports complex queries  
+API available for automation  
+Useful for identity correlation  
+Good Maltego integration  
+
+## Limitations
+Paid service  
+Contains sensitive material  
+Data freshness varies by breach  
+Requires analyst judgment to avoid false assumptions  
+
+## Requires Account
+Yes  
+
+## Typical Use Case
+You receive an email from an incident report and need deeper breach context including usernames and passwords to assess account compromise scope.
+
+## Example
+
+Input:  
+user@example.com  
+
+Output:
+
+Username – user123  
+Password – ********  
+Source – Collection #5  
+IP – 203.0.113.45  
+
+This confirms exposed credentials and
