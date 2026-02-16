@@ -22,37 +22,6 @@ Every tool is documented using a standardized template to ensure consistency, cl
 
 ---
 
-## Repository Structure
-category/
-│
-
-├── breach-data/
-
-├── correlation/
-
-├── domain/
-
-├── geolocation/
-
-├── people-osint/
-
-├── social-media/
-
-└── username-enumeration/
-
-
-templates/
-
-└── tool-template.md
-
-
-README.md
-
-Each category folder contains individual Markdown files, with **one tool per file**.
-
-Example: category/username-enumeration/whatsmyname.md
----
-
 ## Categories
 
 Tools are organized by investigation phase:
