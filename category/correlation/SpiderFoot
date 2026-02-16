@@ -1,0 +1,77 @@
+# SpiderFoot
+
+## Category
+Correlation / Automated OSINT
+
+## Purpose
+SpiderFoot is an automated OSINT reconnaissance and correlation tool that collects data from hundreds of sources and links domains, IPs, emails, usernames, and infrastructure together into actionable intelligence.
+
+## Access / Where to Get It
+Website: https://www.spiderfoot.net  
+GitHub: https://github.com/smicallef/spiderfoot  
+
+## Input
+Domain  
+IP address  
+Email address  
+Username  
+ASN  
+Company name  
+
+## Output
+Correlated entities  
+Associated domains and IPs  
+Email addresses  
+Breach indicators  
+Social profiles  
+Infrastructure relationships  
+Visual graphs  
+
+## Strengths
+Highly automated  
+Over 200 OSINT modules  
+Local deployment supported  
+Visual relationship mapping  
+Excellent for broad reconnaissance  
+Free open-source version available  
+
+## Limitations
+Can generate noisy results  
+Requires tuning for focused investigations  
+Some modules require API keys  
+Automation may surface false positives  
+
+## Requires Account
+No for local use  
+Some APIs require accounts  
+
+## Typical Use Case
+You start with a domain and want rapid automated discovery of related infrastructure, breached emails, and connected assets before narrowing scope manually.
+
+## Example
+
+Input:  
+example-phish.com  
+
+Output:
+
+IP – 203.0.113.45  
+Associated Domain – fake-login.net  
+Email – admin@example-phish.com  
+ASN – AS12345  
+
+This provides fast campaign-level visibility.
+
+## Notes
+Excellent for initial reconnaissance.  
+Best used before manual pivoting.  
+Pairs well with Maltego for deeper visualization.
+
+## Tags
+
+#correlation  
+#automation  
+#osint  
+#recon  
+#open-source  
+#soc  
