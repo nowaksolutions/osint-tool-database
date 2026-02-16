@@ -2,9 +2,9 @@
 
 A structured, continuously evolving knowledge base of Open-Source Intelligence (OSINT) tools used in cybersecurity investigations, threat intelligence, and digital reconnaissance.
 
-This repository documents tools by investigative category, explains what each tool does, outlines strengths and limitations, and provides real-world use cases to support SOC workflows and analyst decision-making.
+This repository is hosted on :contentReference[oaicite:0]{index=0} and is designed as both a personal learning system and a professional portfolio artifact.
 
-Hosted on :contentReference[oaicite:0]{index=0} as both a personal learning system and a professional portfolio artifact.
+Each tool lives in its own file and is organized by investigative category to mirror real SOC and threat-intelligence workflows.
 
 ---
 
@@ -18,30 +18,50 @@ The goal of this project is to move beyond simple tool collection and instead bu
 • A foundation for future automation  
 • A reference system for SOC operations  
 
-Each tool is documented using a standardized template to ensure consistency and usability.
+Every tool is documented using a standardized template to ensure consistency, clarity, and operational relevance.
 
+---
+
+## Repository Structure
+category/
+│
+├── breach-data/
+├── correlation/
+├── domain/
+├── geolocation/
+├── people-osint/
+├── social-media/
+└── username-enumeration/
+│
+templates/
+└── tool-template.md
+
+README.md
+
+Each category folder contains individual Markdown files, with **one tool per file**.
+
+Example: category/username-enumeration/whatsmyname.md
 ---
 
 ## Categories
 
 Tools are organized by investigation phase:
 
-Recon  
 Username Enumeration  
 People OSINT  
 Domain & Infrastructure  
 Social Media Analysis  
 Breach Data  
 Geolocation  
-Correlation & Graphing  
+Correlation & Link Analysis  
 
-This mirrors real-world analyst workflows used in SOC and threat intelligence environments.
+This reflects how analysts actually pivot during real investigations.
 
 ---
 
 ## Documentation Standard
 
-Each tool includes:
+Each tool file includes:
 
 Category  
 Purpose  
@@ -55,13 +75,13 @@ Example
 Personal Notes  
 Tags  
 
-This ensures every entry provides both technical value and operational context.
+This ensures every entry provides both technical detail and real-world context.
 
 ---
 
 ## Tags
 
-Tools are additionally tagged for rapid searching:
+Tools are additionally tagged for fast searching and future automation:
 
 #free  
 #paid  
@@ -101,5 +121,6 @@ Driven by logic. Guided by purpose.
 
 ## Disclaimer
 
-All tools documented in this repository are intended for educational and defensive security purposes only.  
+All tools documented in this repository are intended for educational and defensive security purposes only.
+
 Always ensure proper authorization and legal compliance before conducting any investigations.
