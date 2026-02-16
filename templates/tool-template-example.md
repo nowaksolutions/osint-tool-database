@@ -36,5 +36,27 @@ You receive a suspicious domain from a phishing email and want to quickly identi
 
 ## Example
 
-Input:
+Input: evil-domain.com
 
+Output: 
+Hosting: Vultr
+IP: 192.168.1.22
+ASN: AS20473
+Country: Netherlands
+Related domains: evil-login.com, secure-portal.net
+
+You now have multiple pivot points for deeper OSINT.
+
+## Notes
+
+Best used early in investigations.  
+Pair with username and email OSINT tools after domain discovery.  
+Always manually verify results before attribution.
+
+## Tags
+
+#domains  
+#passive  
+#recon  
+#free-tier  
+#infrastructure  
