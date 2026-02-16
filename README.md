@@ -25,16 +25,26 @@ Every tool is documented using a standardized template to ensure consistency, cl
 ## Repository Structure
 category/
 │
+
 ├── breach-data/
+
 ├── correlation/
+
 ├── domain/
+
 ├── geolocation/
+
 ├── people-osint/
+
 ├── social-media/
+
 └── username-enumeration/
-│
+
+
 templates/
+
 └── tool-template.md
+
 
 README.md
 
