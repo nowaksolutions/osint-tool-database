@@ -45,8 +45,6 @@ ASN: AS20473
 Country: Netherlands
 Related domains: evil-login.com, secure-portal.net
 
-You now have multiple pivot points for deeper OSINT.
-
 ## Notes
 
 Best used early in investigations.  
