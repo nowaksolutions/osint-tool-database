@@ -47,7 +47,9 @@ Input: user@example.com
 Output:
 
 Adobe – Email addresses, password hints
+
 LinkedIn – Emails, hashed passwords
+
 Collection #1 – Emails, passwords
 
 This confirms prior exposure and supports credential-reset and monitoring actions.
